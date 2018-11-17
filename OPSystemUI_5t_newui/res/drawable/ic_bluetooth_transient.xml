@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="ic_bluetooth_transient" android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="ic_bluetooth_transient_0" android:translateX="23.99883" android:translateY="23.99839">
+        <group android:name="ic_bluetooth_transient_pivot" android:translateX="-23.99883" android:translateY="-23.99839">
+            <group android:name="ic_bluetooth_white_outlines" android:translateX="22.73986" android:translateY="23.99839">
+                <group android:name="ic_bluetooth_white_outlines_pivot" android:translateX="-10.64937" android:translateY="-22.0172">
+                    <path android:name="b_shape_merged" android:fillColor="#ff000000" android:pathData="M23.0606602,30.9393398 C23.6464466,31.5251263 23.6464466,32.4748737 23.0606602,33.0606602 L13.0606602,43.0606602 C12.1157129,44.0056075 10.5,43.3363573 10.5,42 L10.5,25.6213203 L3.06066017,33.0606602 L0.939339828,30.9393398 L9.87867966,22 L0.939339828,13.0606602 L3.06066017,10.9393398 L10.5,18.3786797 L10.5,2 C10.5,0.663642724 12.1157129,-0.00560746361 13.0606602,0.939339828 L23.0606602,10.9393398 C23.6464466,11.5251263 23.6464466,12.4748737 23.0606602,13.0606602 L14.1213203,22 L23.0606602,30.9393398 Z M13.5,25.6213203 L13.5,38.3786797 L19.8786797,32 L13.5,25.6213203 Z M19.8786797,12 L13.5,5.62132034 L13.5,18.3786797 L19.8786797,12 Z" />
+                </group>
+            </group>
+            <group android:name="dot_left_outlines" android:translateX="20.6501" android:translateY="24.00011">
+                <group android:name="dot_left_outlines_pivot" android:rotation="45.0" android:translateX="-10.5" android:translateY="-4.25">
+                    <path android:name="dot_left" android:fillColor="#ff000000" android:pathData="M 1.00842695 1.00842743 H 5.00842695 V 5.00842743 H 1.00842695 V 1.00842743 Z" android:fillAlpha="0.5" />
+                </group>
+            </group>
+            <group android:name="dot_right_outlines" android:translateX="27.3501" android:translateY="23.99741">
+                <group android:name="dot_right_outlines_pivot" android:rotation="45.0" android:translateX="10.5" android:translateY="-4.2525">
+                    <path android:name="dot_right" android:fillColor="#ff000000" android:pathData="M 1.00842743 1.00842743 H 5.00842743 V 5.00842743 H 1.00842743 V 1.00842743 Z" />
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

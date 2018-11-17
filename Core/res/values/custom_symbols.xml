@@ -1,0 +1,103 @@
+<resources>
+    <!-- Rotation sensor -->
+    <java-symbol type="bool" name="config_useSystemClockforRotationSensor" />
+
+    <!-- Whether notify fingerprint client of successful cancelled authentication -->
+    <java-symbol type="bool" name="config_notifyClientOnFingerprintCancelSuccess" />
+
+    <!-- Package Manager -->
+    <java-symbol type="array" name="config_disabledComponents" />
+    <java-symbol type="array" name="config_forceEnabledComponents" />
+
+    <!-- Vendor signatures -->
+    <java-symbol type="array" name="config_vendorPlatformSignatures" />
+
+    <!-- Device keyhandlers -->
+    <java-symbol type="array" name="config_deviceKeyHandlerLibs" />
+    <java-symbol type="array" name="config_deviceKeyHandlerClasses" />
+
+    <!-- Gesture Sensor -->
+    <java-symbol type="bool" name="config_enableGestureService" />
+
+    <!-- Whether device ignores the RSSNR signal implementation -->
+    <java-symbol type="bool" name="config_ignoreRssnrSignalLevel" />
+
+    <!-- Full screen aspect ratio -->
+    <java-symbol type="bool" name="config_haveHigherAspectRatioScreen" />
+    <java-symbol type="dimen" name="config_screenAspectRatio" />
+
+    <!-- Whether device has dash charging support -->
+    <java-symbol type="bool" name="config_hasDashCharger" />
+
+    <!-- Whether device has turbo power charging support -->
+    <java-symbol type="bool" name="config_hasTurboPowerCharger" />
+
+    <!-- Leds -->
+    <java-symbol type="bool" name="config_intrusiveBatteryLed" />
+
+    <!-- Proximity check on screen on -->
+    <java-symbol type="bool" name="config_proximityCheckOnWake" />
+
+    <!-- Proximity check timeout -->
+    <java-symbol type="integer" name="config_proximityCheckTimeout" />
+
+    <!-- Proximity check on screen on default -->
+    <java-symbol type="bool" name="config_proximityCheckOnWakeEnabledByDefault" />
+
+    <!-- Buttons - Enable navbar (used by Settings and device parts app) -->
+    <java-symbol type="string" name="disable_navkeys_title" />
+    <java-symbol type="string" name="disable_navkeys_summary" />
+
+    <!-- Alternative keyhandler -->
+    <java-symbol type="string" name="config_alternativeDeviceKeyHandlerLib" />
+    <java-symbol type="string" name="config_alternativeDeviceKeyHandlerClass" />
+
+    <!-- Weather icons -->
+    <java-symbol type="drawable" name="weather_clear_night" />
+    <java-symbol type="drawable" name="weather_cloudy" />
+    <java-symbol type="drawable" name="weather_foggy" />
+    <java-symbol type="drawable" name="weather_isolated_scattered_thunderstorms_night" />
+    <java-symbol type="drawable" name="weather_isolated_scattered_thunderstorms" />
+    <java-symbol type="drawable" name="weather_mostly_clear_night" />
+    <java-symbol type="drawable" name="weather_mostly_cloudy_night" />
+    <java-symbol type="drawable" name="weather_mostly_cloudy" />
+    <java-symbol type="drawable" name="weather_mostly_sunny" />
+    <java-symbol type="drawable" name="weather_partly_cloudy_night" />
+    <java-symbol type="drawable" name="weather_partly_cloudy" />
+    <java-symbol type="drawable" name="weather_rain" />
+    <java-symbol type="drawable" name="weather_scattered_showers_night" />
+    <java-symbol type="drawable" name="weather_scattered_showers" />
+    <java-symbol type="drawable" name="weather_snow" />
+    <java-symbol type="drawable" name="weather_sunny" />
+    <java-symbol type="drawable" name="weather_thunderstorms" />
+    <java-symbol type="drawable" name="weather_windy" />
+
+    <!-- Ambient play -->
+    <java-symbol type="string" name="ambient_recognition_notification" />
+    <java-symbol type="string" name="ambient_recognition_information" />
+
+    <!-- Whether to cleanup fingerprints upon connection to the daemon and when user switches -->
+    <java-symbol type="bool" name="config_cleanupUnusedFingerprints" />
+
+    <!-- Whether device supports an alt. ambient display -->
+    <java-symbol type="bool" name="config_alt_ambient_display"/>
+
+    <!-- display for radio tech -->
+    <java-symbol type="bool" name="config_display_rat" />
+
+    <!-- config 2G/3G/4G RAT strings for carriers -->
+    <java-symbol type="string" name="config_rat_unknown" />
+    <java-symbol type="string" name="config_rat_2g" />
+    <java-symbol type="string" name="config_rat_3g" />
+    <java-symbol type="string" name="config_rat_4g" />
+
+    <java-symbol type="string" name="config_comboNetworkLocationProvider" />
+
+    <!-- App error dialog -->
+    <java-symbol type="id" name="aerr_copy" />
+    <java-symbol type="string" name="url_copy_success" />
+    <java-symbol type="string" name="url_copy_failed" />
+
+    <!-- Unneccesary gradient declaration | Just for our bars -->
+    <java-symbol type="color" name="accent_gradient_end_color" />
+</resources>

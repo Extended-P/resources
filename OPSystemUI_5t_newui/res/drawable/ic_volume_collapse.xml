@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="ic_caret_down" android:tint="?android:colorControlNormal" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="caret___4">
+        <group android:name="left" android:pivotX="7.5" android:pivotY="12.5" android:rotation="0.0">
+            <group android:name="right_pivot">
+                <path android:name="rectangle_path_1" android:fillColor="#ff1a1a1c" android:pathData="M12,9.06L3.53,17.53,2.47,16.47,10.94,8l0.53-0.53a0.75,0.75,0,0,1,1.06,0h0L13.06,8Z" />
+            </group>
+        </group>
+        <group android:name="right" android:pivotX="16.5" android:pivotY="12.5" android:rotation="0.0">
+            <group android:name="left_pivot">
+                <path android:name="rectangle_path_2" android:fillColor="#ff1a1a1c" android:pathData="M10.94,8l0.53-0.53a0.75,0.75,0,0,1,1.06,0h0L13.06,8l8.47,8.47-1.06,1.06L12,9.06Z" />
+            </group>
+        </group>
+    </group>
+</vector>

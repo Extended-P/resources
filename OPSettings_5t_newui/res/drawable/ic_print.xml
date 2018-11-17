@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@android:drawable/ic_perm_group_system_clock" android:tint="@android:color/lockscreen_owner_info"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

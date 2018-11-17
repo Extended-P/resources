@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/op_apps" settings:keywords="@string/oneplus_advanced_display_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <SwitchPreference android:title="@string/notify_light_enable_title" android:key="notify_light_enable" />
+    <PreferenceScreen android:title="@string/led_settings_title" android:key="led_settings" android:summary="@string/led_settings_summary" android:fragment="com.oneplus.settings.notification.OPLEDSettings" />
+    <PreferenceScreen android:title="@string/screensaver_settings_title" android:key="screensaver" android:fragment="com.android.settings.DreamSettings" />
+    <DropDownPreference android:title="@string/display_vr_pref_title" android:key="vr_display_pref" android:summary="%s" />
+</PreferenceScreen>

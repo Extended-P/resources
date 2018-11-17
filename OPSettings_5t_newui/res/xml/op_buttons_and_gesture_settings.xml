@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/oneplus_buttons_and_gestures_settings" settings:keywords="@string/oneplus_buttons_and_gestures_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.oneplus.settings.ui.OPPreferenceHeaderMargin android:key="preference_divider_line" />
+    <Preference android:title="@string/alertslider_settings" android:key="op_alertslider_settings_soc_tri_state" android:fragment="com.oneplus.settings.notification.OPNotificationAndNotdisturb" />
+    <Preference android:title="@string/oneplus_navigation_bar_title" android:key="op_buttons_and_fullscreen_gestures" android:fragment="com.oneplus.settings.OPButtonsSettings" />
+    <Preference android:title="@string/oneplus_quick_gestures" android:key="op_gestures" android:fragment="com.oneplus.settings.OPGestureSettings" />
+</PreferenceScreen>
